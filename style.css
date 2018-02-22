@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700,800&subset=latin-ext');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* list of images */
+
+/* Snow 'gnuZ_8pixCE ' */
+/* Mist 'EDSGSKm5jvc' */
+/* Rain vbRAHOuc05w */
+/* Clouds -GwHS2piM_U */
+/* Drizzle NAYEaTYBrQI */
+/* Clear 9NUeLk0uqME */
+
+body {
+  background: url("https://source.unsplash.com/EDSGSKm5jvc/1600x900") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Montserrat, sans-serif;
+
+}
+
+.main {
+  width: 600px;
+  height: 300px;
+  margin: 8% auto auto auto;
+  position: relative;
+
+}
+
+.temp-box {
+  background: rgb(12, 12, 12);
+  width: 240px;
+  height: 100%;
+
+}
+
+.temp-text {
+  padding-top: 30%; 
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 5rem;
+}
+
+.icon-box {
+  position: absolute;
+  top: 0;
+  left: 40%;
+  background: rgb(255, 255, 255, 0.1);
+  width: 360px;
+  height: 70%;
+  color: white;
+  
+
+}
+
+.icon {
+  display: block;
+  font-size: 8rem;
+  text-align: center;
+  position: absolute;
+  top: 0%;
+  left: 10%;
+  color: white;
+  width: 300px;
+  height: 100%;
+}
+
+.icon img {
+  width: 200px;
+  height: 100%;
+  color: white;
+}
+
+.icon-box p {
+  font-size: 1.3rem;
+  position: absolute;
+  top: 76%;
+  left: 44%;
+  font-weight: 300;
+}
+
+.detail-box {
+  height: 30%;
+  width: 360px;
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  background: rgb(59, 59, 114, 0.2);
+}
+
+.detail-text {
+  color: beige;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 25px;
+  font-weight: 300;
+}
+
+.ion-waterdrop {
+  padding: 10px;
+}
+
+.ion-flag {
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  color: rgb(255, 250, 250, 0.6);
+  font-weight: 300;
+}
